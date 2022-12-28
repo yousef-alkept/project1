@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+background-color: #eee;
+
+font-family: 'Almarai', sans-serif;
+}
+
+ul{
+background-color:black;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li :hover{
+     background-color:red;
+}
+
+.main img{
+    background-image: url('../img/pexels-polina-chistyakova-14284208.jpg');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.our-features{
+    padding-top: 50px;
+   width: 80%; 
+   margin: auto;
+   text-align: center;
+   margin-bottom: 50px;
+}
+.our-features h1{
+    color: red;
+
+}
+
+.features{
+    display: flex;
+ margin-top: 4px;
+}
+.features .feature{
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.features .feature:hover{
+    box-shadow: 3px 3px 10px red;
+    transform: translateX(3px);
+    background-color: red;
+    
+}
+
+.features .feature i{
+padding:15px;
+font-size: 30px;
+background-color: red;
+color: white;
+
+border-radius: 50%;
+}
+
+.features .feature h3{
+    font-size: 20px;
+    margin-top:15px;
+    margin-bottom:15px;
+
+}
+
+/* start content style */
+
+
+.content{
+    padding: 50px;
+    /* width: 80%; */
+    margin:0 auto ;
+    text-align: center;
+    background-color:white;
+    margin-bottom:50px;
+  
+}
+
+.content h1{
+
+    color: red;
+}
+
+.content p{
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+.content img{
+    width: 300px;
+}
+
+/* start contact-us */
+
+.contact-us{
+    margin-top:100PX;
+    margin-bottom:100PX;
+}
+
+.contact-form{
+    width: 700px;
+    background-color:white;
+    margin:auto;
+    padding: 40px;
+    text-align:center;
+    border-radius:5px;
+}
+
+.input-form{
+margin-bottom: 20px;
+}
+.input-form input{
+width: 400px;
+height:30px ;
+border:1px solid black ;
+border-radius: 3px;
+
+}
+
+
+textarea{
+    width: 400px;
+    height:200px ;
+    border:1px solid black ;
+    border-radius: 3px;
+     
+}
+button{
+    background-color: rgb(240, 99, 99);
+color:white;
+width: 200px;
+height: 50px;
+border: 1px solid white;
+border-radius: 5px;
+font-size: 20px;
+cursor: pointer;
+}
